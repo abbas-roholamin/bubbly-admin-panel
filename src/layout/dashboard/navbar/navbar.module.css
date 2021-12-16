@@ -1,0 +1,29 @@
+.nav_bar {
+  background-color: #fff;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  position: relative;
+  z-index: 4;
+}
+.navbar_wrapper {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar_toggler:hover {
+  cursor: pointer;
+}
+
+.navbar_brand {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4650dd;
+  letter-spacing: 0.2em;
+}
+
+.navbar_icons {
+  display: flex;
+  justify-content: flex-end;
+}

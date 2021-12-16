@@ -1,0 +1,33 @@
+.list_item {
+  list-style: none;
+}
+.item_link {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  color: #6c757d;
+}
+.item_link.active {
+  background-color: #4650dd;
+  color: #fff;
+}
+.item_link:hover:not(.active) {
+  background: rgba(0, 0, 0, 0.03);
+}
+.item_icon {
+  margin-right: 1rem;
+}
+
+.shrink_item_link {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  padding: 0.5rem 0.2rem;
+}
+
+.shrink_item_icon {
+  margin: 0;
+  margin-bottom: 0.2rem;
+}

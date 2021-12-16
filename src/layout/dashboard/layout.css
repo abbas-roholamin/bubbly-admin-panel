@@ -1,0 +1,12 @@
+.main_container {
+  display: flex;
+}
+.page_holder {
+  display: flex;
+  overflow-x: hidden;
+  width: 100%;
+  min-height: calc(100vh - 72px);
+  padding-top: 3rem;
+  flex-wrap: wrap;
+  background-color: #f8f9fa !important;
+}

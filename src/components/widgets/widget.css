@@ -1,0 +1,21 @@
+.widget_wrapper {
+  display: flex;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  font-size: 0.9rem;
+  align-items: center;
+}
+.widget_body {
+  flex-grow: 1;
+}
+.widget_body h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.widget_body span {
+  font-weight: bold;
+}
+.icon .MuiSvgIcon-root {
+  font-size: 3rem;
+}

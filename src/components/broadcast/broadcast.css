@@ -1,0 +1,11 @@
+.breadcrumb_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.breadcrumb_wrapper > *::first-letter,
+.breadcrumb > *::first-letter {
+  text-transform: uppercase;
+}
+#breadcrumb {
+  margin: 0;
+}

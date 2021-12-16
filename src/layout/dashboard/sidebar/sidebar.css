@@ -1,0 +1,41 @@
+.sidebar {
+  padding-top: 1rem;
+  width: 16rem;
+  transition: all 0.2s;
+  min-height: 100vh;
+  background: #fff;
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  z-index: 2;
+}
+
+.sideber_section_heading {
+  margin-bottom: 0;
+  padding: 1.5rem;
+  color: #adb5bd;
+  font-size: 0.7875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.sidebar_list {
+  padding: 0;
+}
+.sidebar.show {
+  margin-left: 0;
+}
+
+.sidebar.shrink {
+  width: 6rem;
+  text-align: center;
+}
+
+@media (max-width: 1199.98px) {
+  .sidebar {
+    overflow: hidden;
+    width: 6rem;
+    margin-left: -6rem;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    text-align: center;
+  }
+}
